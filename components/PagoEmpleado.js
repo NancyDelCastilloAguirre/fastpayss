@@ -39,8 +39,8 @@ export const PagoEmpleado = () => {
 
       const sendSolInstruction = web3.SystemProgram.transfer({
         fromPubkey: publicKey,
-        toPubkey: recipientPubKey,
-        lamports: LAMPORTS_PER_SOL * VB
+        toPubkey: recipientPubKey
+        
       })
       
     console.log(recipientPubKey);
