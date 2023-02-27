@@ -69,6 +69,7 @@ export const PagoEmpleado = () => {
 
 
 function table(){
+try{
 
 if(typeof document!=="undefined"){
   valor=""; 
@@ -125,6 +126,9 @@ input.addEventListener("input", () => {
 }
 
 else{console.log("Nope");}
+}catch (error){
+console.log(errorr)
+}
 }
   return ( 
    
